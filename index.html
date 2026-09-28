@@ -1,10 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Portafolio | Alejandra Sabbagh</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Portafolio de Alejandra Sabbagh: diseño visual, fotografía y exploración 3D.">
+  <title>Alejandra Sabbagh — Portafolio</title>
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230F2B52'/%3E%3Cpath d='M5 25C8 8 20 6 28 7' fill='none' stroke='%23D61B2B' stroke-width='3'/%3E%3C/svg%3E">
 
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="./updates.css">
@@ -12,337 +15,597 @@
 
 <body>
 
-  <!-- HERO -->
-  <header class="hero">
+  <a class="skip" href="#contenido">Saltar al contenido</a>
 
-    <div class="hero-image">
-      <img src="./habitacion-correcta.jpeg" alt="Proyecto Habitación">
-    </div>
+  <header>
+    <a class="wordmark" href="#inicio">AS<span>.</span></a>
 
-    <div class="hero-content">
-      <p class="eyebrow">PORTAFOLIO / DISEÑO GRÁFICO</p>
+    <button class="menu" aria-controls="nav" aria-expanded="false">
+      Menú
+    </button>
 
-      <h1>
-        Alejandra<br>
-        Sabbagh
-      </h1>
-
-      <p class="hero-description">
-        Diseño gráfico, editorial y web.
-        Exploración visual, composición y creación
-        de experiencias digitales.
-      </p>
-
-      <a href="#sobre-mi" class="hero-link">
-        Conocer más ↓
-      </a>
-    </div>
-
+    <nav id="nav">
+      <a href="#perfil">Sobre mí</a>
+      <a href="#identidad">Identidad</a>
+      <a href="#proyectos">3D + animación</a>
+      <a href="#fotografia">Fotografía</a>
+      <a href="#web">Web</a>
+      <a href="#editorial">Editorial</a>
+    </nav>
   </header>
 
+  <main id="contenido">
 
-  <!-- SOBRE MÍ -->
-  <section id="sobre-mi" class="section about">
+    <!-- HERO -->
 
-    <div class="section-title">
-      <span>01</span>
-      <h2>Sobre mí</h2>
-    </div>
+    <section class="hero" id="inicio">
 
-    <div class="about-grid">
+      <div class="hero-copy">
+        <p class="overline">Portafolio / 2026</p>
 
-      <div class="about-image">
-        <img src="./alejandra-sabbagh.png" alt="Alejandra Sabbagh">
-      </div>
+        <h1>
+          Alejandra<br>
+          Sabbagh
+        </h1>
 
-      <div class="about-text">
-        <p class="large-text">
-          Soy estudiante de Diseño Gráfico,
-          interesada en el diseño editorial,
-          web y UX/UI.
+        <p class="mantra">
+          Mirar.<br>
+          Ordenar.<br>
+          <b>Comunicar.</b>
         </p>
 
-        <p>
-          Me interesa transformar ideas en propuestas
-          visuales claras, funcionales y atractivas,
-          explorando la relación entre composición,
-          tipografía, imagen y medios digitales.
-        </p>
+        <a class="scroll" href="#identidad">
+          Ver portafolio <span>↓</span>
+        </a>
       </div>
 
-    </div>
-
-  </section>
-
-
-  <!-- PROYECTOS 3D -->
-  <section id="proyectos-3d" class="section">
-
-    <div class="section-title">
-      <span>02</span>
-      <h2>Proyectos 3D</h2>
-    </div>
-
-    <div class="projects-grid">
-
-      <!-- HABITACIÓN -->
-      <article class="project">
+      <div class="hero-image">
         <img
           src="./habitacion-correcta.jpeg"
-          alt="Proyecto Habitación"
+          alt="Render 3D de una habitación en perspectiva axonométrica"
         >
+      </div>
 
-        <div>
-          <small>01 / Espacio</small>
-          <h3>Habitación</h3>
-          <p>Exploración de espacio, composición y modelado 3D.</p>
+      <div class="hero-curve" aria-hidden="true"></div>
+
+    </section>
+
+
+    <!-- PERFIL -->
+
+    <section class="profile section" id="perfil">
+
+      <div class="profile-copy">
+
+        <p class="overline red">Sobre mí</p>
+
+        <h2>
+          Diseño con<br>
+          <em>intención.</em>
+        </h2>
+
+        <p>
+          Estudiante de Diseño Gráfico enfocada en diseño editorial, web y UX/UI.
+          Me interesa transformar ideas en soluciones visuales claras, funcionales
+          y con identidad. Soy creativa, curiosa y detallista, con interés por
+          aprender y experimentar nuevas formas de comunicar a través del diseño.
+        </p>
+
+        <div class="contact">
+          <a href="tel:+3053963975">+305 396 3975</a>
+          <a href="mailto:alejandrasabby@gmail.com">alejandrasabby@gmail.com</a>
+          <span>Chía, Cundinamarca, Colombia</span>
         </div>
-      </article>
+
+      </div>
 
 
-      <!-- LEGO -->
-      <article class="project">
+      <div class="portrait-wrap">
         <img
-          src="./lego.png"
-          alt="Proyecto LEGO"
+          src="./alejandra-sabbagh.png"
+          alt="Retrato de Alejandra Sabbagh"
         >
+      </div>
+
+
+      <div class="profile-details">
 
         <div>
-          <small>02 / Modelado</small>
-          <h3>LEGO</h3>
-          <p>Construcción y composición de elementos tridimensionales.</p>
+
+          <h3>Experiencia académica</h3>
+
+          <p>
+            <b>2024 – Actualidad</b><br>
+            Corporación Universitaria Taller 5<br>
+            <strong>Diseño Gráfico</strong>
+          </p>
+
+          <p>
+            Desarrollo de proyectos académicos enfocados en diseño editorial,
+            diseño web, identidad visual, composición, tipografía y diseño
+            de interfaces.
+          </p>
+
         </div>
-      </article>
 
 
-      <!-- CARRUSEL -->
-      <article class="project carousel">
-        <img
-          src="./carrusel.png"
-          alt="Proyecto Carrusel"
-        >
+        <div class="detail-columns">
 
-        <div>
-          <small>03 / Ritmo</small>
-          <h3>Carrusel</h3>
-          <p>Centro y repetición.</p>
+          <div>
+
+            <h3>Formación</h3>
+
+            <p>
+              <b>Diseño Gráfico</b><br>
+              Corporación Universitaria Taller 5
+            </p>
+
+            <p>
+              <b>Curso de UX/UI</b><br>
+              Universidad de los Andes
+            </p>
+
+          </div>
+
+
+          <div>
+
+            <h3>Competencias</h3>
+
+            <ul>
+              <li>Diseño editorial</li>
+              <li>Diseño web y UX/UI</li>
+              <li>Composición visual</li>
+              <li>Tipografía</li>
+              <li>Conceptualización gráfica</li>
+            </ul>
+
+          </div>
+
         </div>
-      </article>
+
+
+        <div class="tools">
+
+          <h3>Herramientas</h3>
+
+          <p>
+            InDesign · Illustrator · Visual Studio · Photoshop · Figma · Canva
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- IDENTIDAD -->
+
+    <section class="identity section" id="identidad">
+
+      <div>
+
+        <p class="overline red">Identidad visual</p>
+
+        <h2>
+          Una forma de<br>
+          ordenar <em>lo visual.</em>
+        </h2>
+
+      </div>
+
+
+      <div class="body-copy">
+
+        <p>
+          Mi trabajo parte de una estructura clara: bloques, contraste y una
+          imagen que guía la mirada. Entre esa organización aparece un gesto
+          más libre, a veces orgánico y a veces lúdico, que activa el recorrido.
+        </p>
+
+        <div class="colors">
+
+          <span>
+            <i></i>
+            Azul profundo<br>
+            <b>#0F2B52</b>
+          </span>
+
+          <span>
+            <i></i>
+            Rojo<br>
+            <b>#D61B2B</b>
+          </span>
+
+          <span>
+            <i></i>
+            Blanco<br>
+            <b>#FFFFFF</b>
+          </span>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- PROYECTOS 3D -->
+
+    <section class="projects section" id="proyectos">
+
+      <div class="section-intro">
+
+        <p class="overline red">Exploración espacial</p>
+
+        <h2>
+          Diseño 3D<br>
+          <em>+ animación</em>
+        </h2>
+
+        <p>
+          Volumen, luz y ritmo para construir escenas que invitan a mirar
+          y recorrer.
+        </p>
+
+      </div>
+
+
+      <div class="grid-3d">
+
+        <!-- HABITACIÓN -->
+
+        <article class="project room">
+
+          <img
+            src="./habitacion-correcta.jpeg"
+            alt="Proyecto Habitación"
+          >
+
+          <div>
+            <small>01 / Espacio</small>
+            <h3>Habitación</h3>
+            <p>Atmósfera, módulos y luz fría.</p>
+          </div>
+
+        </article>
+
+
+        <!-- LEGO -->
+
+        <article class="project lego">
+
+          <img
+            src="./lego.png"
+            alt="Proyecto Lego"
+          >
+
+          <div>
+            <small>02 / Volumen</small>
+            <h3>Lego</h3>
+            <p>Geometría y sombra.</p>
+          </div>
+
+        </article>
+
+
+        <!-- CARRUSEL -->
+
+        <article class="project carousel">
+
+          <img
+            src="./carrusel.png"
+            alt="Proyecto Carrusel"
+          >
+
+          <div>
+            <small>03 / Ritmo</small>
+            <h3>Carrusel</h3>
+            <p>Centro y repetición.</p>
+          </div>
+
+        </article>
+
+      </div>
 
 
       <!-- TREN -->
-      <article class="project">
-        <video controls playsinline preload="metadata">
-          <source src="./tren-de-juguete.mp4" type="video/mp4">
-          Tu navegador no puede reproducir este video.
-        </video>
+
+      <article class="train">
 
         <div>
-          <small>04 / Animación</small>
-          <h3>Tren de juguete</h3>
-          <p>Exploración de movimiento y animación 3D.</p>
+
+          <p class="overline">04 / Animación</p>
+
+          <h3>
+            Tren de<br>
+            juguete
+          </h3>
+
+          <p>
+            Un recorrido de módulos repetidos, vía diagonal y movimiento continuo.
+          </p>
+
         </div>
-      </article>
 
-    </div>
-
-  </section>
-
-
-  <!-- FOTOGRAFÍA -->
-  <section id="fotografia" class="section">
-
-    <div class="section-title">
-      <span>03</span>
-      <h2>Fotografía</h2>
-    </div>
-
-    <div class="photo-grid">
-
-      <img src="./flora-reflejos.png" alt="Flora y reflejos">
-
-      <img src="./flores-claras.png" alt="Flores claras">
-
-      <img src="./rosa-roja.png" alt="Rosa roja">
-
-      <img src="./agua-piedras.png" alt="Agua y piedras">
-
-      <img src="./flor-blanca.png" alt="Flor blanca">
-
-      <img src="./flor-roja.png" alt="Flor roja">
-
-    </div>
-
-  </section>
-
-
-  <!-- PROYECTOS WEB -->
-  <section id="web" class="section">
-
-    <div class="section-title">
-      <span>04</span>
-      <h2>Proyectos Web</h2>
-    </div>
-
-    <div class="projects-grid">
-
-      <!-- BRIDGERTON WEB -->
-      <article class="project">
 
         <video
-          controls
+          autoplay
+          muted
+          loop
           playsinline
-          preload="metadata"
+          controls
+          poster="./carrusel.png"
+          aria-label="Video del proyecto Tren de juguete"
         >
-          <source src="./bridgerton-web.mp4" type="video/mp4">
-          Tu navegador no puede reproducir este video.
-        </video>
 
-        <div>
-          <small>01 / Diseño Web</small>
-          <h3>Bridgerton Web</h3>
-          <p>
-            Diseño de una propuesta web inspirada
-            en la identidad visual de Bridgerton.
-          </p>
-        </div>
+          <source
+            src="./tren-de-juguete.mp4"
+            type="video/mp4"
+          >
+
+          Tu navegador no puede reproducir este video.
+
+        </video>
 
       </article>
 
-
-      <!-- POR QUÉ DISEÑO WEB -->
-      <article class="project">
-
-        <video
-          controls
-          playsinline
-          preload="metadata"
-        >
-          <source src="./por-que-diseno-web.mp4" type="video/mp4">
-          Tu navegador no puede reproducir este video.
-        </video>
-
-        <div>
-          <small>02 / Diseño Web</small>
-          <h3>Por qué Diseño Web</h3>
-          <p>
-            Proyecto web enfocado en la exploración
-            de interfaces y comunicación visual digital.
-          </p>
-        </div>
-
-      </article>
-
-    </div>
-
-  </section>
+    </section>
 
 
-  <!-- EDITORIAL -->
-  <section id="editorial" class="section">
+    <!-- FOTOGRAFÍA -->
 
-    <div class="section-title">
-      <span>05</span>
-      <h2>Editorial</h2>
-    </div>
+    <section class="photos" id="fotografia">
 
-    <div class="projects-grid">
+      <div class="photo-title">
 
-      <!-- BOMBEROS -->
-      <article class="project">
+        <p class="overline red">Observación</p>
+
+        <h2>
+          Serie<br>
+          fotográfica
+        </h2>
+
+        <p>
+          La luz, la naturaleza y el detalle se convierten en foco,
+          textura y color.
+        </p>
+
+      </div>
+
+
+      <div class="photo-grid">
+
+        <figure>
+          <img
+            src="./flora-reflejos.png"
+            alt="Hojas y reflejos en agua"
+          >
+          <figcaption>Reflejos</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="./flores-claras.png"
+            alt="Flores claras y follaje"
+          >
+          <figcaption>Contraste</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="./rosa-roja.png"
+            alt="Rosa roja"
+          >
+          <figcaption>Foco</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="./agua-piedras.png"
+            alt="Agua y piedras"
+          >
+          <figcaption>Recorrido</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="./flor-blanca.png"
+            alt="Flor blanca"
+          >
+          <figcaption>Materia</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="./flor-roja.png"
+            alt="Flor roja"
+          >
+          <figcaption>Acento</figcaption>
+        </figure>
+
+      </div>
+
+    </section>
+
+
+    <!-- WEB -->
+
+    <section class="web-work section" id="web">
+
+      <div class="section-intro">
+
+        <p class="overline red">Diseño digital</p>
+
+        <h2>
+          Proyectos<br>
+          <em>web</em>
+        </h2>
+
+        <p>
+          Dos experiencias digitales donde la imagen, el contenido y la
+          navegación construyen una historia.
+        </p>
+
+      </div>
+
+
+      <div class="web-grid">
+
+        <!-- POR QUÉ DISEÑO -->
+
+        <article>
+
+          <video
+            autoplay
+            muted
+            loop
+            playsinline
+            controls
+            aria-label="Video del proyecto web Por qué diseño"
+          >
+
+            <source
+              src="./por-que-diseno-web.mp4"
+              type="video/mp4"
+            >
+
+            Tu navegador no puede reproducir este video.
+
+          </video>
+
+          <div>
+            <small>01 / Sitio web</small>
+            <h3>¿Por qué diseño?</h3>
+          </div>
+
+        </article>
+
+
+        <!-- DISEÑO VISUAL -->
+
+        <article>
+
+          <img
+            src="./editorial.jpeg"
+            alt="Proyecto digital"
+          >
+
+          <div>
+            <small>02 / Proyecto web</small>
+            <h3>Diseño visual</h3>
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- EDITORIAL -->
+
+    <section class="editorial section" id="editorial">
+
+      <div>
+
+        <p class="overline red">Diseño gráfico</p>
+
+        <h2>
+          Editorial e<br>
+          información
+        </h2>
+
+        <p class="body-copy">
+          Composiciones que priorizan jerarquía, lectura y una imagen dominante.
+        </p>
+
+      </div>
+
+
+      <div class="editorial-images">
 
         <img
           src="./bomberos.jpeg"
-          alt="Proyecto Editorial Bomberos"
+          alt="Pieza gráfica de Bomberos"
         >
-
-        <div>
-          <small>01 / Editorial</small>
-          <h3>Bomberos</h3>
-          <p>
-            Proyecto editorial enfocado en composición,
-            jerarquía y organización de información.
-          </p>
-        </div>
-
-      </article>
-
-
-      <!-- EDITORIAL -->
-      <article class="project">
 
         <img
           src="./editorial.jpeg"
-          alt="Proyecto Editorial"
+          alt="Diseño editorial"
         >
-
-        <div>
-          <small>02 / Editorial</small>
-          <h3>Editorial</h3>
-          <p>
-            Exploración de composición editorial,
-            tipografía e imagen.
-          </p>
-        </div>
-
-      </article>
-
-
-      <!-- ONI -->
-      <article class="project">
 
         <img
           src="./oni.jpeg"
-          alt="Proyecto ONI"
+          alt="Infografía El Oni Rojo"
         >
 
-        <div>
-          <small>03 / Editorial</small>
-          <h3>ONI</h3>
-          <p>
-            Propuesta gráfica y editorial.
-          </p>
-        </div>
+      </div>
 
-      </article>
-
-    </div>
-
-  </section>
+    </section>
 
 
-  <!-- CONTACTO / FOOTER -->
-  <footer class="footer">
+    <!-- CIERRE -->
 
-    <div>
-      <p class="eyebrow">CONTACTO</p>
+    <section class="closing">
+
+      <p class="overline">
+        Alejandra Sabbagh / Diseño visual
+      </p>
 
       <h2>
-        Diseñemos<br>
-        algo juntos.
+        Directa.<br>
+        Visual.<br>
+        <em>Exploratoria.</em>
       </h2>
-    </div>
 
-    <div class="footer-info">
+      <div class="closing-curve" aria-hidden="true"></div>
 
-      <p>Diseño Gráfico</p>
-      <p>Editorial · Web · UX/UI</p>
+    </section>
 
-    </div>
-
-  </footer>
+  </main>
 
 
   <!-- LIGHTBOX -->
-  <div class="lightbox" id="lightbox">
 
-    <button class="lightbox-close" aria-label="Cerrar">
+  <div
+    class="lightbox"
+    id="lightbox"
+    role="dialog"
+    aria-modal="true"
+    aria-label="Imagen ampliada"
+    aria-hidden="true"
+  >
+
+    <button
+      class="lightbox-close"
+      type="button"
+      aria-label="Cerrar imagen ampliada"
+    >
       ×
     </button>
 
-    <img id="lightbox-img" src="" alt="">
+    <img src="" alt="">
+
+    <p>
+      Haz clic fuera de la imagen o presiona Esc para cerrar.
+    </p>
 
   </div>
+
+
+  <footer>
+
+    <span>Alejandra Sabbagh</span>
+
+    <span>Diseño visual · 2026</span>
+
+    <a href="#inicio">
+      Volver arriba ↑
+    </a>
+
+  </footer>
 
 
   <script src="./script.js"></script>
